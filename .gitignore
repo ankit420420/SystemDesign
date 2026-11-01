@@ -1,0 +1,6 @@
+# Ignore node_modules at any folder depth
+node_modules/
+
+# Ignore environment files at any folder depth
+.env
+.env.*
