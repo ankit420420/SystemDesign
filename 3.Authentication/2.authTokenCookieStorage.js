@@ -6,7 +6,6 @@ const { randomUUID } = require("node:crypto")
 const cookieParser = require("cookie-parser")
 
 const app = express()
-
 const PORT = 3000
 const SECRET = "API_SECRET"
 const roles = ["admin", "employee"]
